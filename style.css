@@ -1,0 +1,596 @@
+/*
+Theme Name: GRIF
+Theme URI: https://wordpress.org/themes/GRIF
+Author: Jesse Dillman
+Author URI: https://jdillman.com/
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: church, GRIF
+*/
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+/* line 5, ../../../.rvm/gems/ruby-2.1.2@global/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../.rvm/gems/ruby-2.1.2@global/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../.rvm/gems/ruby-2.1.2@global/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../.rvm/gems/ruby-2.1.2@global/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../.rvm/gems/ruby-2.1.2@global/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../.rvm/gems/ruby-2.1.2@global/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../.rvm/gems/ruby-2.1.2@global/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../.rvm/gems/ruby-2.1.2@global/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../.rvm/gems/ruby-2.1.2@global/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 14, ../../../.rvm/gems/ruby-2.1.2@global/gems/susy-2.1.3/sass/susy/language/susy/_box-sizing.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* required for parallax */
+/* line 34, sass/style.scss */
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+/* clearfix placeholder selector: not complied to CSS unless used with @extend %clearfix; */
+/* line 41, sass/style.scss */
+.container:after, .content:after, .aside:after, .post-container:after, .alignleft:after, .aligncenter:after, .alignright:after, .meta:after, .header:after, .sidebar:after, .social:after, .controls:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 56, sass/style.scss */
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 60, sass/style.scss */
+body {
+  font-family: Georgia, serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* line 66, sass/style.scss */
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0;
+}
+
+/* line 73, sass/style.scss */
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  margin: 0;
+}
+
+/* line 80, sass/style.scss */
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+
+/* line 87, sass/style.scss */
+p {
+  font-family: Georgia, serif;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+/* line 93, sass/style.scss */
+em {
+  font-style: italic;
+}
+
+/* line 97, sass/style.scss */
+li {
+  font-family: Georgia, serif;
+  font-size: 16px;
+}
+
+/* line 102, sass/style.scss */
+a {
+  text-decoration: underline;
+  color: #333;
+}
+
+/* line 107, sass/style.scss */
+a:hover {
+  text-decoration: none;
+  color: #999;
+}
+
+/* line 112, sass/style.scss */
+strong {
+  font-weight: bold;
+}
+
+/* line 116, sass/style.scss */
+.animate {
+  -webkit-transition: -webkit-transform 1s ease, color 1s ease, background-color 1s ease;
+  -moz-transition: -moz-transform 1s ease, color 1s ease, background-color 1s ease;
+  -o-transition: -o-transform 1s ease, color 1s ease, background-color 1s ease;
+  transition: transform 1s ease, color 1s ease, background-color 1s ease;
+}
+
+/* line 123, sass/style.scss */
+.container {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f3f0e6;
+  overflow: hidden;
+}
+/* line 12, ../../../.rvm/gems/ruby-2.1.2@global/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+.container:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+/* line 130, sass/style.scss */
+.nightmode {
+  background-color: #101112;
+  color: #f3f0e6;
+}
+
+/* line 139, sass/style.scss */
+.aside {
+  color: #f3f0e6;
+}
+
+/* line 144, sass/style.scss */
+.post-container {
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 85%;
+}
+/* line 150, sass/style.scss */
+.post-container a {
+  color: #dd7450;
+  text-decoration: underline;
+}
+
+/* line 156, sass/style.scss */
+.alignleft {
+  float: left;
+  margin-right: 10px;
+}
+
+/* line 162, sass/style.scss */
+.aligncenter {
+  margin: 0 auto;
+}
+
+/* line 167, sass/style.scss */
+.alignright {
+  float: right;
+  margin-left: 10px;
+}
+
+/* line 173, sass/style.scss */
+.meta {
+  margin: 10px 0;
+}
+
+/* line 178, sass/style.scss */
+.date {
+  color: #797979;
+  margin-bottom: 0;
+  float: left;
+}
+
+/* line 186, sass/style.scss */
+.post-categories li {
+  list-style: none;
+  float: left;
+  padding: 5px 7px;
+  margin: 0 5px;
+  background-color: #212326;
+}
+/* line 193, sass/style.scss */
+.post-categories li a {
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  color: #f3f0e6;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 0;
+}
+
+/* line 206, sass/style.scss */
+.header {
+  background-color: #212326;
+}
+
+/* line 211, sass/style.scss */
+.sidebar {
+  background-color: #212326;
+  padding-top: 17px;
+}
+
+/* line 217, sass/style.scss */
+.stick {
+  position: fixed !important;
+  width: 23.25581%;
+}
+
+/* line 224, sass/style.scss */
+.logo a {
+  display: block;
+  background: url(images/logo.svg) no-repeat center top;
+}
+
+/* line 230, sass/style.scss */
+.name {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 235, sass/style.scss */
+.mobile-nav {
+  background: url(images/mobile-nav.svg) no-repeat center top;
+  width: 30px;
+  height: 30px;
+}
+
+/* line 241, sass/style.scss */
+.social {
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto 20px auto;
+}
+/* line 247, sass/style.scss */
+.social ul {
+  margin: 0 auto;
+}
+/* line 250, sass/style.scss */
+.social ul li {
+  list-style: none;
+  float: left;
+  width: 33%;
+  height: 40px;
+}
+/* line 256, sass/style.scss */
+.social ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin-right: 0;
+  text-indent: -9999px;
+}
+
+/* line 267, sass/style.scss */
+#mobile-collapse {
+  background: #101112 url(images/collapse.svg) no-repeat center top;
+  width: 30px;
+  height: 30px;
+  border: 5px solid #101112;
+}
+
+/* line 274, sass/style.scss */
+.social a[href*="twitter.com"] {
+  background: url(images/twitter.svg) no-repeat center top;
+}
+
+/* line 278, sass/style.scss */
+.social a[href*="github.com"] {
+  background: url(images/github.svg) no-repeat center top;
+}
+
+/* line 282, sass/style.scss */
+.social a[href*="linkedin.com"] {
+  background: url(images/linkedin.svg) no-repeat center top;
+}
+
+/* line 286, sass/style.scss */
+.search {
+  height: 34px;
+  margin-bottom: 15px;
+}
+/* line 290, sass/style.scss */
+.search form {
+  padding: 0;
+  margin: 0 auto;
+  width: 75%;
+  background-color: #f3f0e6;
+}
+
+/* line 298, sass/style.scss */
+#s {
+  float: left;
+  background-color: #f3f0e6;
+  margin: 0;
+  padding: 0 10px;
+  font-size: 17px;
+  height: 34px;
+  border: 0px solid #f3f0e6;
+  width: 80%;
+}
+
+/* line 309, sass/style.scss */
+.search-submit {
+  float: left;
+  width: 18%;
+  height: 34px;
+  margin: 0;
+  padding: 0;
+  border: 5px solid #f3f0e6;
+  background: #f3f0e6 url(images/search.svg) no-repeat right center;
+}
+
+/* line 323, sass/style.scss */
+.nav ul li {
+  list-style: none;
+  width: 100%;
+}
+/* line 327, sass/style.scss */
+.nav ul li a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  color: #f3f0e6;
+  text-transform: uppercase;
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  padding-left: 12%;
+}
+/* line 339, sass/style.scss */
+.nav ul li a:hover {
+  background-color: #101112;
+}
+
+/* line 350, sass/style.scss */
+#nightmode {
+  background: #101112 url(images/nightmode.svg) no-repeat center top;
+  width: 30px;
+  height: 30px;
+  border: 5px solid #101112;
+}
+
+/* line 357, sass/style.scss */
+#daymode {
+  background: #101112 url(images/daymode.svg) no-repeat center top;
+  width: 30px;
+  height: 30px;
+  border: 5px solid #101112;
+  display: none;
+}
+
+/* line 371, sass/style.scss */
+.content {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 90px;
+}
+
+/* line 376, sass/style.scss */
+.aside {
+  background-color: none;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+/* line 382, sass/style.scss */
+.header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* line 388, sass/style.scss */
+.sidebar {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+}
+
+/* line 394, sass/style.scss */
+.logo {
+  width: 23.07692%;
+  float: left;
+  margin-right: 2.5641%;
+  padding: 10px;
+}
+/* line 398, sass/style.scss */
+.logo a {
+  width: 100%;
+  height: 65px;
+}
+
+/* line 404, sass/style.scss */
+.name {
+  width: 48.71795%;
+  float: left;
+  margin-right: 2.5641%;
+  margin-top: 28px;
+}
+/* line 408, sass/style.scss */
+.name h1 {
+  font-size: 20px;
+}
+
+/* line 413, sass/style.scss */
+.mobile-nav {
+  width: 23.07692%;
+  float: right;
+  margin-right: 0;
+  display: block;
+  margin-top: 28px;
+}
+
+/* line 419, sass/style.scss */
+#mobile-collapse {
+  display: block;
+}
+
+/* line 435, sass/style.scss */
+.controls {
+  position: static;
+}
+
+/* line 439, sass/style.scss */
+.alignleft {
+  float: none;
+  margin-right: 0;
+}
+
+/* line 444, sass/style.scss */
+.aligncenter {
+  margin: 0;
+}
+
+/* line 448, sass/style.scss */
+.alignright {
+  float: none;
+  margin-left: 0;
+}
+
+@media (min-width: 676px) {
+  /* line 459, sass/style.scss */
+  .content {
+    width: 74.57627%;
+    float: left;
+    margin-right: 1.69492%;
+    margin-top: 0px;
+  }
+
+  /* line 464, sass/style.scss */
+  .aside {
+    width: 23.72881%;
+    float: right;
+    margin-right: 0;
+    background-color: #212326;
+    padding-top: 20px;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+  }
+
+  /* line 472, sass/style.scss */
+  .header {
+    position: relative;
+    float: none;
+  }
+
+  /* line 477, sass/style.scss */
+  .sidebar {
+    position: relative;
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+
+  /* line 486, sass/style.scss */
+  .logo {
+    float: none;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  /* line 492, sass/style.scss */
+  .logo a {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+
+  /* line 499, sass/style.scss */
+  .name {
+    float: none;
+    width: 100%;
+    padding: 0 10px;
+    line-height: 1.1;
+    margin-top: 0px;
+  }
+  /* line 506, sass/style.scss */
+  .name h1 {
+    font-size: 32px;
+  }
+
+  /* line 511, sass/style.scss */
+  .mobile-nav {
+    display: none;
+  }
+
+  /* line 515, sass/style.scss */
+  #mobile-collapse {
+    display: none;
+  }
+
+  /* line 531, sass/style.scss */
+  .controls {
+    padding-top: 15px;
+    padding-left: 12%;
+  }
+}
