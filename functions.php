@@ -47,19 +47,6 @@ function header_style() {
 
 	$nav_item_width = (100 / $nav_items_count) - .3;
 
-	// // Dynamic social media icons
-	// $menu = wp_get_nav_menu_object( 'social' );
-
-	// $menu_items = wp_get_nav_menu_items($menu->term_id);
-
-	// $menu_list = '';
-
-	// foreach ( (array) $menu_items as $key => $menu_item ) {
-		
-	//     $title = $menu_item->title;
-	//     $menu_list .= '.'.$title.'{ background-image: url( images/'.$title.'.jpg ); margin-right: 10px; }';
-	// }
-
 	return "<style type='text/css'>
 				@media (min-width: 676px) {
 
