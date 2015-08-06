@@ -200,27 +200,28 @@ a {
 /* line 155, sass/style.scss */
 .nav {
   width: 100%;
+  border-bottom: 5px solid #0E333E;
   position: relative;
   bottom: 0px;
 }
-/* line 160, sass/style.scss */
+/* line 161, sass/style.scss */
 .nav ul {
   display: block;
   padding: 0;
   width: 100%;
 }
-/* line 165, sass/style.scss */
+/* line 166, sass/style.scss */
 .nav ul li {
   margin: 0;
   list-style: none;
   float: left;
 }
-/* line 170, sass/style.scss */
+/* line 171, sass/style.scss */
 .nav ul li a {
   display: block;
   padding: 15px 0;
 }
-/* line 175, sass/style.scss */
+/* line 176, sass/style.scss */
 .nav ul li ul {
   width: 100%;
   display: none;
@@ -229,52 +230,52 @@ a {
   top: 100%;
   background-color: #DEDECA;
 }
-/* line 183, sass/style.scss */
+/* line 184, sass/style.scss */
 .nav ul li ul li {
   float: none;
   width: 100%;
 }
-/* line 187, sass/style.scss */
+/* line 188, sass/style.scss */
 .nav ul li ul li a {
   padding: 10px 5px;
   color: #0E333E;
 }
-/* line 191, sass/style.scss */
+/* line 192, sass/style.scss */
 .nav ul li ul li a:hover {
   background-color: #AEE4CD;
 }
-/* line 198, sass/style.scss */
+/* line 199, sass/style.scss */
 .nav ul li:hover > ul {
   display: block;
 }
 
-/* line 205, sass/style.scss */
+/* line 206, sass/style.scss */
 .content {
   width: 310.52632%;
   float: left;
   margin-right: 5.26316%;
 }
 
-/* line 210, sass/style.scss */
+/* line 211, sass/style.scss */
 .breadcrumbs {
   width: 310.52632%;
   float: left;
   margin-right: 5.26316%;
 }
-/* line 213, sass/style.scss */
+/* line 214, sass/style.scss */
 .breadcrumbs p {
   font-size: 12px;
   color: #DEDECA;
 }
 
-/* line 219, sass/style.scss */
+/* line 220, sass/style.scss */
 .product {
   width: 152.63158%;
   float: left;
   margin-right: 5.26316%;
 }
 
-/* line 224, sass/style.scss */
+/* line 225, sass/style.scss */
 .thumbnail {
   -moz-box-shadow: 3px 3px 5px 1px #ccc;
   -webkit-box-shadow: 3px 3px 5px 1px #ccc;
@@ -285,25 +286,25 @@ a {
   float: left;
 }
 
-/* line 234, sass/style.scss */
+/* line 235, sass/style.scss */
 .info {
   float: left;
 }
 
-/* line 238, sass/style.scss */
+/* line 239, sass/style.scss */
 .audio {
   float: left;
   width: 100%;
 }
 
-/* line 243, sass/style.scss */
+/* line 244, sass/style.scss */
 .footer {
   width: 310.52632%;
   float: left;
   margin-right: 5.26316%;
 }
 
-/* line 248, sass/style.scss */
+/* line 249, sass/style.scss */
 .footer-meta {
   width: 100%;
   float: left;
@@ -311,7 +312,7 @@ a {
   margin-right: 0;
 }
 
-/* line 252, sass/style.scss */
+/* line 253, sass/style.scss */
 .footer-nav {
   width: 205.26316%;
   float: left;
