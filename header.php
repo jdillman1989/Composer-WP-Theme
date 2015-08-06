@@ -6,7 +6,8 @@
  *
  * @package WordPress
  */
-?><!DOCTYPE html>
+?>
+<!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
@@ -16,3 +17,27 @@
 		wp_head(); 
 	?>
 </head>
+
+<body>
+	
+	<div class="container">
+
+		<div class="header">
+
+			<div class="logo">
+			</div>
+
+			<div class="tagline">
+				<h1>The Music of <span>Karen Ball</span></h1>
+			</div>
+
+			<div class="nav">
+				<?php
+					wp_nav_menu( 
+						array( 'theme_location' => 'primary' ) 
+					); 
+				?>
+			</div>
+		</div>
+
+		<div class="content">

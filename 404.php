@@ -7,29 +7,11 @@
 ?>
 <?php get_header(); ?>
 
-<body>
-	<div class="container animate">
+<h2>That page doesn't exist!</h2> 
+<p>Try doing a search:</p>
 
-		<div class="content">
-
-			<div class="post-container">
-
-				<h2>That page doesn't exist!</h2> 
-				<p>Try doing a search:</p>
-
-				<div class="search-404">
-
-					<?php
-						get_search_form(); 
-					?>
-				</div>
-			</div>
-		</div>
-		
-		<div class="aside animate">
-			<?php get_sidebar(); ?>
-		</div>
-	</div>
-</body>
+<?php
+	get_search_form(); 
+?>
 
 <?php get_footer(); ?>
