@@ -19,7 +19,7 @@
 </head>
 
 <body>
-	
+
 	<div class="container">
 
 		<div class="header">
@@ -27,16 +27,19 @@
 			<div class="logo">
 			</div>
 
-			<div class="tagline">
-				<h1>The Music of <span>Karen Ball</span></h1>
-			</div>
+			<div class="header-info">
+				
+				<div class="tagline">
+					<h1>The Music of <span>Karen Ball</span></h1>
+				</div>
 
-			<div class="nav">
-				<?php
-					wp_nav_menu( 
-						array( 'theme_location' => 'primary' ) 
-					); 
-				?>
+				<div class="nav">
+					<?php
+						wp_nav_menu( 
+							array( 'theme_location' => 'primary' ) 
+						); 
+					?>
+				</div>
 			</div>
 		</div>
 

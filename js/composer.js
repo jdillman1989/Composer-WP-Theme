@@ -1,6 +1,38 @@
 jQuery(document).ready(function() {
 
-	// accordion
+	// Header Resizing
+
+	var headerInfo = jQuery('.header-info');
+	var container = jQuery('.container');
+	var containerMargin = parseInt(container.css('marginLeft'));
+	var logo = jQuery('.logo');
+	var logoWidth = logo.outerWidth();
+
+	function updateCrop() {
+
+		headerInfo.css({
+			'width': jQuery( window ).width() - logoWidth - containerMargin
+		});
+	}
+
+	if ( jQuery( window ).width() < 960 + containerMargin ) {
+		updateCrop();
+	};
+
+	jQuery(window).resize(function(){
+
+		if ( jQuery( window ).width() < 960 + containerMargin ) {
+			updateCrop();
+		}
+		else{
+
+			headerInfo.css({
+				'width': 700
+			});
+		};
+	});
+
+	// Accordion
 
 	// Fix for a bug in WordPress that generates a bunch of empty <p>'s in the shortcode  
 	jQuery('p:empty').remove();
@@ -41,7 +73,6 @@ jQuery(document).ready(function() {
 	});
 	
 	/*** END REMOVE IF MOUSEOVER IS NOT REQUIRED ***/
-	
 	
 	// deep link into accordion
 	// If there's a # in the URL, open all toggles and scroll to corresponding

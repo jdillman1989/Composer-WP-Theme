@@ -82,7 +82,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* clearfix placeholder selector: not complied to CSS unless used with @extend %clearfix; */
 /* line 35, sass/style.scss */
-.container:after, .header:after, .logo:after, .tagline:after, .nav:after, .content:after, .product:after, .footer:after {
+.container:after, .header:after, .logo:after, .header-info:after, .content:after, .product:after, .footer:after {
   content: "";
   display: table;
   clear: both;
@@ -143,7 +143,7 @@ a {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  margin: 0 0 0 190px;
+  margin-left: 190px;
   max-width: 960px;
   min-width: 480px;
 }
@@ -173,18 +173,23 @@ a {
 }
 
 /* line 131, sass/style.scss */
-.tagline {
-  float: left;
+.header-info {
   width: 700px;
+  float: left;
 }
-/* line 136, sass/style.scss */
+
+/* line 137, sass/style.scss */
+.tagline {
+  width: 100%;
+}
+/* line 140, sass/style.scss */
 .tagline h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 67px;
   color: #0E333E;
   letter-spacing: 0px;
 }
-/* line 143, sass/style.scss */
+/* line 147, sass/style.scss */
 .tagline span {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 29px;
@@ -192,31 +197,30 @@ a {
   letter-spacing: 12px;
 }
 
-/* line 151, sass/style.scss */
+/* line 155, sass/style.scss */
 .nav {
-  float: left;
-  width: 700px;
+  width: 100%;
   position: relative;
   bottom: 0px;
 }
-/* line 158, sass/style.scss */
+/* line 160, sass/style.scss */
 .nav ul {
   display: block;
   padding: 0;
   width: 100%;
 }
-/* line 163, sass/style.scss */
+/* line 165, sass/style.scss */
 .nav ul li {
   margin: 0;
   list-style: none;
   float: left;
 }
-/* line 168, sass/style.scss */
+/* line 170, sass/style.scss */
 .nav ul li a {
   display: block;
   padding: 15px 0;
 }
-/* line 173, sass/style.scss */
+/* line 175, sass/style.scss */
 .nav ul li ul {
   width: 100%;
   display: none;
@@ -225,52 +229,52 @@ a {
   top: 100%;
   background-color: #DEDECA;
 }
-/* line 181, sass/style.scss */
+/* line 183, sass/style.scss */
 .nav ul li ul li {
   float: none;
   width: 100%;
 }
-/* line 185, sass/style.scss */
+/* line 187, sass/style.scss */
 .nav ul li ul li a {
   padding: 10px 5px;
   color: #0E333E;
 }
-/* line 189, sass/style.scss */
+/* line 191, sass/style.scss */
 .nav ul li ul li a:hover {
   background-color: #AEE4CD;
 }
-/* line 196, sass/style.scss */
+/* line 198, sass/style.scss */
 .nav ul li:hover > ul {
   display: block;
 }
 
-/* line 203, sass/style.scss */
+/* line 205, sass/style.scss */
 .content {
   width: 310.52632%;
   float: left;
   margin-right: 5.26316%;
 }
 
-/* line 208, sass/style.scss */
+/* line 210, sass/style.scss */
 .breadcrumbs {
   width: 310.52632%;
   float: left;
   margin-right: 5.26316%;
 }
-/* line 211, sass/style.scss */
+/* line 213, sass/style.scss */
 .breadcrumbs p {
   font-size: 12px;
   color: #DEDECA;
 }
 
-/* line 217, sass/style.scss */
+/* line 219, sass/style.scss */
 .product {
   width: 152.63158%;
   float: left;
   margin-right: 5.26316%;
 }
 
-/* line 222, sass/style.scss */
+/* line 224, sass/style.scss */
 .thumbnail {
   -moz-box-shadow: 3px 3px 5px 1px #ccc;
   -webkit-box-shadow: 3px 3px 5px 1px #ccc;
@@ -281,25 +285,25 @@ a {
   float: left;
 }
 
-/* line 232, sass/style.scss */
+/* line 234, sass/style.scss */
 .info {
   float: left;
 }
 
-/* line 236, sass/style.scss */
+/* line 238, sass/style.scss */
 .audio {
   float: left;
   width: 100%;
 }
 
-/* line 241, sass/style.scss */
+/* line 243, sass/style.scss */
 .footer {
   width: 310.52632%;
   float: left;
   margin-right: 5.26316%;
 }
 
-/* line 246, sass/style.scss */
+/* line 248, sass/style.scss */
 .footer-meta {
   width: 100%;
   float: left;
@@ -307,7 +311,7 @@ a {
   margin-right: 0;
 }
 
-/* line 250, sass/style.scss */
+/* line 252, sass/style.scss */
 .footer-nav {
   width: 205.26316%;
   float: left;
