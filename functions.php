@@ -50,7 +50,7 @@ function header_style() {
 	return "<style type='text/css'>
 				@media (min-width: 676px) {
 
-					.nav ul li {
+					.nav ul li, .footer-nav ul li {
 						width: ".$nav_item_width."%;
 					}
 				}

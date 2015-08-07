@@ -244,6 +244,7 @@ a{
 .footer{
 	@include span(12);
 	@extend %clearfix;
+	border-top: 2px solid $navy-blue; 
 }
 
 .footer-meta{
@@ -252,4 +253,31 @@ a{
 
 .footer-nav{
 	@include span(8);
+	
+	ul{
+		display: block;
+		padding: 0;
+		width: 100%;
+
+		li{
+			margin: 0;
+			list-style: none;
+			float: left;
+
+			a{
+				display: block;
+				padding: 15px 0;
+			}
+		}
+	}
+}
+
+.footnote{
+	@include span(8);
+	margin-bottom: 15px; 
+	
+	p{
+		font-size: 10px;
+		text-align: center;
+	}
 }
