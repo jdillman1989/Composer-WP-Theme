@@ -69,6 +69,7 @@ body {
  	background-position: left, bottom right;
  	background-size: auto, cover;
 	background-attachment: fixed, fixed;
+	overflow-x: hidden;
 }
 
 h1{
@@ -201,7 +202,7 @@ a{
 				padding: 7px 7px;
 				text-decoration: none;
 				font-family: Georgia, sans-serif;
-				font-size: 18px;
+				font-size: 20px;
 				
 				&:hover{
 					background-color: $green;
