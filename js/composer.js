@@ -1,8 +1,9 @@
 jQuery(document).ready(function() {
 
-	// Header Resizing
+	// Container Resizing
 
 	var headerInfo = jQuery('.header-info');
+	var content = jQuery('.content');
 	var container = jQuery('.container');
 	var containerMargin = parseInt(container.css('marginLeft'));
 	var logo = jQuery('.logo');
@@ -12,6 +13,10 @@ jQuery(document).ready(function() {
 
 		headerInfo.css({
 			'width': jQuery( window ).width() - logoWidth - containerMargin
+		});
+
+		content.css({
+			'width': jQuery( window ).width() - containerMargin
 		});
 	}
 
@@ -28,6 +33,10 @@ jQuery(document).ready(function() {
 
 			headerInfo.css({
 				'width': 700
+			});
+
+			content.css({
+				'width': 960
 			});
 		};
 	});
