@@ -107,7 +107,8 @@ a{
 .alignleft{
 	@extend %clearfix;
 	float: left;
-	margin-right: 10px; 
+	margin-right: 20px; 
+	margin-bottom: 20px; 
 }
 
 .aligncenter{
@@ -118,7 +119,8 @@ a{
 .alignright{
 	@extend %clearfix;
 	float: right;
-	margin-left: 10px; 
+	margin-left: 20px; 
+	margin-bottom: 20px; 
 }
 
 .container{
@@ -148,6 +150,8 @@ a{
 .header-info{
 	@extend %clearfix;
 	width: 700px;
+	height: 200px;
+	position: relative; 
 	float: left;
 }
 
@@ -171,9 +175,10 @@ a{
 
 .nav{
 	width: 100%;
-	border-bottom: 5px solid $navy-blue; 
-	position: relative;
+	border-bottom: 2px solid $navy-blue; 
+	position: absolute;
 	bottom: 0px;
+	left: -2px;
 	
 	ul{
 		display: block;
@@ -297,6 +302,7 @@ a{
 .footnote{
 	width: 100%;
 	margin: 0 auto 15px auto; 
+	float: left;
 	
 	p{
 		font-size: 10px;
