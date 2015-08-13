@@ -126,7 +126,7 @@ a{
 .container{
 	@extend %clearfix;
 	width: 100%;
-	margin-left: 205px;
+	margin-left: 220px;
 	max-width: 960px;
 	min-width: 480px;  
 }
@@ -134,7 +134,7 @@ a{
 .header {
 	width: 100%;
 	@extend %clearfix;
-	margin: 10px 0;
+	margin: 20px 0;
 }
 
 .logo{
@@ -192,7 +192,13 @@ a{
 
 			a{
 				display: block;
-				padding: 15px 0;
+				padding: 15px 0 7px 0;
+				text-decoration: none;
+				
+				&:hover{
+					background-color: $green;
+					color: $navy-blue;
+				} 
 			}
 
 			ul{
@@ -227,6 +233,7 @@ a{
 
 .content{
 	width: 100%;
+	margin-bottom: 30px; 
 	@extend %clearfix;
 }
 
