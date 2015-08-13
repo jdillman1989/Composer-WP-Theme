@@ -122,15 +122,15 @@ a{
 }
 
 .container{
-	@include container(100%);
 	@extend %clearfix;
-	margin-left: 190px;
+	width: 100%;
+	margin-left: 205px;
 	max-width: 960px;
 	min-width: 480px;  
 }
 
 .header {
-	@include span(12);
+	width: 100%;
 	@extend %clearfix;
 	margin: 10px 0;
 }
@@ -221,12 +221,12 @@ a{
 }
 
 .content{
-	@include span(12);
+	width: 100%;
 	@extend %clearfix;
 }
 
 .breadcrumbs{
-	@include span(12);
+	width: 100%;
 	
 	p{
 		font-size: 12px;
@@ -235,7 +235,9 @@ a{
 }
 
 .product{
-	@include span(6);
+	width: 47%;
+	margin-right: 2%;
+	float: left;
 	@extend %clearfix;
 }
 
@@ -259,17 +261,20 @@ a{
 }
 
 .footer{
-	@include span(12);
+	width: 100%;
 	@extend %clearfix;
 	border-top: 2px solid $navy-blue; 
 }
 
 .footer-meta{
-	@include span(4);
+	width: 31%;
+	float: left;
+	margin-right: 2%; 
 }
 
 .footer-nav{
-	@include span(8);
+	width: 66%;
+	float: left;
 	
 	ul{
 		display: block;
@@ -290,8 +295,8 @@ a{
 }
 
 .footnote{
-	@include span(8);
-	margin-bottom: 15px; 
+	width: 100%;
+	margin: 0 auto 15px auto; 
 	
 	p{
 		font-size: 10px;
