@@ -11,12 +11,8 @@ jQuery(document).ready(function() {
 
 	function updateCrop() {
 
-		headerInfo.css({
-			'width': jQuery( window ).width() - logoWidth - containerMargin - 30
-		});
-
-		content.css({
-			'width': jQuery( window ).width() - containerMargin
+		container.css({
+			'width': jQuery( window ).width() - containerMargin - 30
 		});
 	}
 
@@ -31,11 +27,7 @@ jQuery(document).ready(function() {
 		}
 		else{
 
-			headerInfo.css({
-				'width': 700
-			});
-
-			content.css({
+			container.css({
 				'width': 960
 			});
 		};
