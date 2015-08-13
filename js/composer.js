@@ -21,13 +21,13 @@ jQuery(document).ready(function() {
 		});
 	}
 
-	if ( jQuery( window ).width() < 960 + containerMargin + 30 ) {
+	if ( jQuery( window ).width() < 960 + containerMargin + 30 && jQuery( window ).width() > 670 ) {
 		updateCrop();
 	};
 
 	jQuery(window).resize(function(){
 
-		if ( jQuery( window ).width() < 960 + containerMargin + 30 ) {
+		if ( jQuery( window ).width() < 960 + containerMargin + 30 && jQuery( window ).width() > 670 ) {
 			updateCrop();
 		}
 		else{
