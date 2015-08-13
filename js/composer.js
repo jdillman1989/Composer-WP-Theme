@@ -12,7 +12,7 @@ jQuery(document).ready(function() {
 	function updateCrop() {
 
 		headerInfo.css({
-			'width': jQuery( window ).width() - logoWidth - containerMargin
+			'width': jQuery( window ).width() - logoWidth - containerMargin - 30
 		});
 
 		content.css({
@@ -20,13 +20,13 @@ jQuery(document).ready(function() {
 		});
 	}
 
-	if ( jQuery( window ).width() < 960 + containerMargin ) {
+	if ( jQuery( window ).width() < 960 + containerMargin + 30 ) {
 		updateCrop();
 	};
 
 	jQuery(window).resize(function(){
 
-		if ( jQuery( window ).width() < 960 + containerMargin ) {
+		if ( jQuery( window ).width() < 960 + containerMargin + 30 ) {
 			updateCrop();
 		}
 		else{
