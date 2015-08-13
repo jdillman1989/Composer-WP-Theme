@@ -194,17 +194,17 @@ a {
 }
 /* line 160, sass/style.scss */
 .tagline h1 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 67px;
-  color: #0E333E;
-  letter-spacing: 0px;
-}
-/* line 167, sass/style.scss */
-.tagline span {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 29px;
   color: #EF4D5D;
   letter-spacing: 12px;
+}
+/* line 167, sass/style.scss */
+.tagline span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 67px;
+  color: #0E333E;
+  letter-spacing: 0px;
 }
 
 /* line 175, sass/style.scss */
