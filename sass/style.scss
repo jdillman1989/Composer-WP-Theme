@@ -64,7 +64,7 @@ body {
 	margin: 0;
 	padding: 0;
 	color: #000;
-	background-image: url(../images/bg_bar.png), url(../images/bg2.png);
+	background-image: url( images/bg_bar.png), url( images/bg2.png);
   	background-repeat: repeat-y, no-repeat;
  	background-position: left, bottom right;
  	background-size:auto, cover;
@@ -120,7 +120,7 @@ a{
 
 .logo{
 	@extend %clearfix;
-	background-image:url(../images/monogram.svg);
+	background-image:url( images/monogram.svg);
 	background-repeat:no-repeat;
 	background-position:bottom right;
 	width: 250px;
