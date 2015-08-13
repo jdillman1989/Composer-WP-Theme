@@ -67,33 +67,32 @@ body {
 	background-image: url( images/bg_bar.png), url( images/bg2.png);
   	background-repeat: repeat-y, no-repeat;
  	background-position: left, bottom right;
- 	background-size:auto, cover;
-	background-attachment:fixed, fixed;
+ 	background-size: auto, cover;
+	background-attachment: fixed, fixed;
 }
 
 h1{
-	font-family:Arial, Helvetica, sans-serif;
-	font-size:40px;
-	margin-bottom:0px;
-	color:$navy-blue;
-	vertical-align:central;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 40px;
+	margin-bottom: 0px;
+	color: $navy-blue;
 }
 
 h2{
-	font-family:Georgia, "Times New Roman", Times, serif;
-	color:$pink;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: $pink;
 }
 
 h4{
-	font-family:Georgia, "Times New Roman", Times, serif;
-	font-size:22px;
-	color:$navy-blue;
-	margin-bottom:15px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 22px;
+	color: $navy-blue;
+	margin-bottom: 15px;
 }
 
 p{
 	font-family: Georgia, sans-serif;
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 1.5;
 	color: $black;
 	padding-bottom: 15px; 
@@ -192,7 +191,7 @@ a{
 
 			a{
 				display: block;
-				padding: 15px 0 7px 0;
+				padding: 7px 7px;
 				text-decoration: none;
 				
 				&:hover{
