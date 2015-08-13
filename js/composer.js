@@ -7,12 +7,17 @@ jQuery(document).ready(function() {
 	var container = jQuery('.container');
 	var containerMargin = parseInt(container.css('marginLeft'));
 	var logo = jQuery('.logo');
-	var logoWidth = logo.outerWidth();
 
 	function updateCrop() {
 
-		container.css({
-			'width': jQuery( window ).width() - containerMargin - 30
+		var logoWidth = logo.outerWidth();
+
+		headerInfo.css({
+			'width': jQuery( window ).width() - logoWidth - containerMargin - 30
+		});
+
+		content.css({
+			'width': jQuery( window ).width() - containerMargin
 		});
 	}
 
@@ -27,7 +32,11 @@ jQuery(document).ready(function() {
 		}
 		else{
 
-			container.css({
+			headerInfo.css({
+				'width': 700
+			});
+
+			content.css({
 				'width': 960
 			});
 		};
