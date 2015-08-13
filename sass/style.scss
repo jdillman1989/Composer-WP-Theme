@@ -133,7 +133,7 @@ a{
 .header {
 	width: 100%;
 	@extend %clearfix;
-	margin: 20px 0;
+	margin: 30px 0;
 }
 
 .logo{
@@ -193,6 +193,8 @@ a{
 				display: block;
 				padding: 7px 7px;
 				text-decoration: none;
+				font-family: Georgia, sans-serif;
+				font-size: 18px;
 				
 				&:hover{
 					background-color: $green;
@@ -215,6 +217,8 @@ a{
 					a{
 						padding: 10px 5px;
 						color: $navy-blue;
+						font-family: Georgia, sans-serif;
+						font-size: 18px;
 						
 						&:hover{
 							background-color: $green;
