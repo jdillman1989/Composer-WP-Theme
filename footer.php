@@ -45,7 +45,7 @@
 				<text transform="matrix(1 0 0 1 272.3311 116.2829)" fill="#10333D" font-family="'Arial-BoldMT'" font-size="72.421" letter-spacing="1">Karen Ball</text>
 				</svg>
 
-				<h2>kball@olivet.edu</h2>
+				<div id="email"></div>
 			</div>
 
 			<div class="footer-nav">

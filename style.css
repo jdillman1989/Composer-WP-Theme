@@ -372,23 +372,35 @@ a {
 }
 
 /* line 330, sass/style.scss */
+#email {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #0E333E;
+  letter-spacing: 1px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+/* line 341, sass/style.scss */
 .footer-nav {
   width: 66%;
   float: left;
 }
-/* line 334, sass/style.scss */
+/* line 345, sass/style.scss */
 .footer-nav ul {
   display: block;
   padding: 0;
   width: 100%;
 }
-/* line 339, sass/style.scss */
+/* line 350, sass/style.scss */
 .footer-nav ul li {
   margin: 0;
   list-style: none;
   float: left;
 }
-/* line 344, sass/style.scss */
+/* line 355, sass/style.scss */
 .footer-nav ul li a {
   display: block;
   padding: 15px 0;
@@ -397,80 +409,80 @@ a {
   font-size: 16.5px;
   text-align: center;
 }
-/* line 352, sass/style.scss */
+/* line 363, sass/style.scss */
 .footer-nav ul li a:hover {
   background-color: #AEE4CD;
   color: #0E333E;
 }
 
-/* line 361, sass/style.scss */
+/* line 372, sass/style.scss */
 .footnote {
   width: 100%;
   margin: 0 auto 15px auto;
   float: left;
 }
-/* line 366, sass/style.scss */
+/* line 377, sass/style.scss */
 .footnote p {
   font-size: 10px;
   text-align: center;
 }
 
 @media only screen and (min-width: 700px) and (max-width: 900px) {
-  /* line 374, sass/style.scss */
+  /* line 385, sass/style.scss */
   .wp-post-image {
     float: none;
   }
 
-  /* line 378, sass/style.scss */
+  /* line 389, sass/style.scss */
   .logo {
     width: 150px;
     height: 120px;
   }
 
-  /* line 383, sass/style.scss */
+  /* line 394, sass/style.scss */
   .header-info {
     height: 120px;
   }
 
-  /* line 387, sass/style.scss */
+  /* line 398, sass/style.scss */
   .tagline {
     margin-top: 3px;
     margin-left: 7px;
     text-align: left;
   }
-  /* line 392, sass/style.scss */
+  /* line 403, sass/style.scss */
   .tagline h1 {
     font-size: 23px;
     letter-spacing: 7px;
   }
-  /* line 397, sass/style.scss */
+  /* line 408, sass/style.scss */
   .tagline span {
     font-size: 43px;
     letter-spacing: 0px;
   }
 
-  /* line 402, sass/style.scss */
+  /* line 413, sass/style.scss */
   .nav {
     border-bottom: 2px solid #0E333E;
   }
-  /* line 409, sass/style.scss */
+  /* line 420, sass/style.scss */
   .nav ul li a {
     font-size: 15px;
   }
 
-  /* line 422, sass/style.scss */
+  /* line 433, sass/style.scss */
   .footer-nav ul li a {
     font-size: 15px;
   }
 }
 @media only screen and (max-width: 700px) {
-  /* line 432, sass/style.scss */
+  /* line 443, sass/style.scss */
   body {
     background-image: none;
     border-left: 10px solid #AEE4CD;
   }
 
-  /* line 437, sass/style.scss */
+  /* line 448, sass/style.scss */
   p {
     font-family: Georgia, sans-serif;
     font-size: 15px;
@@ -480,85 +492,85 @@ a {
     text-align: left;
   }
 
-  /* line 446, sass/style.scss */
+  /* line 457, sass/style.scss */
   .wp-post-image {
     float: none;
   }
 
-  /* line 450, sass/style.scss */
+  /* line 461, sass/style.scss */
   .alignleft {
     float: none;
     margin-right: 0;
     margin-bottom: 15px;
   }
 
-  /* line 456, sass/style.scss */
+  /* line 467, sass/style.scss */
   .aligncenter {
     margin: 0 auto 15 auto;
   }
 
-  /* line 460, sass/style.scss */
+  /* line 471, sass/style.scss */
   .alignright {
     float: none;
     margin-left: 0;
     margin-bottom: 15px;
   }
 
-  /* line 466, sass/style.scss */
+  /* line 477, sass/style.scss */
   .container {
     width: 90%;
     margin-left: auto;
     margin: 0 auto;
   }
 
-  /* line 472, sass/style.scss */
+  /* line 483, sass/style.scss */
   .logo {
     display: none;
   }
 
-  /* line 476, sass/style.scss */
+  /* line 487, sass/style.scss */
   .header-info {
     height: 120px;
     width: 100% !important;
     float: none;
   }
 
-  /* line 482, sass/style.scss */
+  /* line 493, sass/style.scss */
   .tagline {
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
   }
-  /* line 488, sass/style.scss */
+  /* line 499, sass/style.scss */
   .tagline h1 {
     font-size: 23px;
     letter-spacing: 7px;
     text-align: center;
   }
-  /* line 494, sass/style.scss */
+  /* line 505, sass/style.scss */
   .tagline span {
     font-size: 43px;
     letter-spacing: 0px;
     text-align: center;
   }
 
-  /* line 501, sass/style.scss */
+  /* line 512, sass/style.scss */
   .nav {
     border-bottom: 2px solid #0E333E;
   }
-  /* line 508, sass/style.scss */
+  /* line 519, sass/style.scss */
   .nav ul li a {
     font-size: 13px;
   }
 
-  /* line 515, sass/style.scss */
+  /* line 526, sass/style.scss */
   .content {
     width: 100% !important;
     padding-right: 0;
   }
 
-  /* line 526, sass/style.scss */
+  /* line 537, sass/style.scss */
   .footer-nav ul li a {
     font-size: 13px;
   }
