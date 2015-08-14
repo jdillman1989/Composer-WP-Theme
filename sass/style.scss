@@ -360,8 +360,14 @@ a{
 	.nav{
 		border-bottom: 2px solid $navy-blue; 
 		
-		a{
-			font-size: 13px;
+		ul{
+
+			li{
+
+				a{
+					font-size: 13px; 
+				}
+			}
 		}
 	}
 }

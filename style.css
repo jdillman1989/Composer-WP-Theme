@@ -407,19 +407,19 @@ a {
   .nav {
     border-bottom: 2px solid #0E333E;
   }
-  /* line 363, sass/style.scss */
-  .nav a {
+  /* line 367, sass/style.scss */
+  .nav ul li a {
     font-size: 13px;
   }
 }
 @media only screen and (max-width: 700px) {
-  /* line 371, sass/style.scss */
+  /* line 377, sass/style.scss */
   body {
     background-image: none;
     border-left: 10px solid #AEE4CD;
   }
 
-  /* line 376, sass/style.scss */
+  /* line 382, sass/style.scss */
   p {
     font-family: Georgia, sans-serif;
     font-size: 15px;
@@ -429,70 +429,70 @@ a {
     text-align: left;
   }
 
-  /* line 385, sass/style.scss */
+  /* line 391, sass/style.scss */
   .alignleft {
     float: none;
     margin-right: 0;
     margin-bottom: 15px;
   }
 
-  /* line 391, sass/style.scss */
+  /* line 397, sass/style.scss */
   .aligncenter {
     margin: 0 auto 15 auto;
   }
 
-  /* line 395, sass/style.scss */
+  /* line 401, sass/style.scss */
   .alignright {
     float: none;
     margin-left: 0;
     margin-bottom: 15px;
   }
 
-  /* line 401, sass/style.scss */
+  /* line 407, sass/style.scss */
   .container {
     width: 90%;
     margin-left: auto;
     margin: 0 auto;
   }
 
-  /* line 407, sass/style.scss */
+  /* line 413, sass/style.scss */
   .logo {
     display: none;
   }
 
-  /* line 411, sass/style.scss */
+  /* line 417, sass/style.scss */
   .header-info {
     height: 120px;
     width: 100% !important;
     float: none;
   }
 
-  /* line 417, sass/style.scss */
+  /* line 423, sass/style.scss */
   .tagline {
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
   }
-  /* line 423, sass/style.scss */
+  /* line 429, sass/style.scss */
   .tagline h1 {
     font-size: 23px;
     letter-spacing: 7px;
     text-align: center;
   }
-  /* line 429, sass/style.scss */
+  /* line 435, sass/style.scss */
   .tagline span {
     font-size: 43px;
     letter-spacing: 0px;
     text-align: center;
   }
 
-  /* line 436, sass/style.scss */
+  /* line 442, sass/style.scss */
   .nav {
     border-bottom: 2px solid #0E333E;
   }
 
-  /* line 440, sass/style.scss */
+  /* line 446, sass/style.scss */
   .content {
     width: 100% !important;
     padding-right: 0;
