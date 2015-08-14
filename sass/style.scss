@@ -441,6 +441,16 @@ a{
 
 	.nav{
 		border-bottom: 2px solid $navy-blue; 
+		
+		ul{
+
+			li{
+
+				a{
+					font-size: 15px; 
+				}
+			}
+		}
 	}
 
 	.content{
