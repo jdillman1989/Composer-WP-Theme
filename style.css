@@ -1,11 +1,10 @@
 /*
-Theme Name: GRIF
-Theme URI: https://wordpress.org/themes/GRIF
+Theme Name: Composer
 Author: Jesse Dillman
 Author URI: https://jdillman.com/
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags: church, GRIF
+Tags: music, composer
 */
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 /* line 5, ../../../.rvm/gems/ruby-2.1.2@global/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
@@ -81,14 +80,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* clearfix placeholder selector: not complied to CSS unless used with @extend %clearfix; */
-/* line 35, sass/style.scss */
+/* line 34, sass/style.scss */
 .alignleft:after, .aligncenter:after, .alignright:after, .container:after, .header:after, .logo:after, .header-info:after, .content:after, .product:after, .footer:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 63, sass/style.scss */
+/* line 62, sass/style.scss */
 body {
   margin: 0;
   padding: 0;
@@ -102,7 +101,7 @@ body {
   border-left: none;
 }
 
-/* line 76, sass/style.scss */
+/* line 75, sass/style.scss */
 h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 40px;
@@ -111,13 +110,13 @@ h1 {
   color: #0E333E;
 }
 
-/* line 84, sass/style.scss */
+/* line 83, sass/style.scss */
 h2 {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #EF4D5D;
 }
 
-/* line 89, sass/style.scss */
+/* line 88, sass/style.scss */
 h4 {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 22px;
@@ -125,7 +124,7 @@ h4 {
   margin-bottom: 15px;
 }
 
-/* line 96, sass/style.scss */
+/* line 95, sass/style.scss */
 p {
   font-family: Georgia, sans-serif;
   font-size: 18px;
@@ -135,45 +134,45 @@ p {
   text-align: justify;
 }
 
-/* line 105, sass/style.scss */
+/* line 104, sass/style.scss */
 a {
   color: #EF4D5D;
   text-decoration: underline;
 }
 
-/* line 110, sass/style.scss */
+/* line 109, sass/style.scss */
 .alignleft {
   float: left;
   margin-right: 25px;
   margin-bottom: 25px;
 }
 
-/* line 117, sass/style.scss */
+/* line 116, sass/style.scss */
 .aligncenter {
   margin: 0 auto;
 }
 
-/* line 122, sass/style.scss */
+/* line 121, sass/style.scss */
 .alignright {
   float: right;
   margin-left: 25px;
   margin-bottom: 25px;
 }
 
-/* line 129, sass/style.scss */
+/* line 128, sass/style.scss */
 .container {
   width: 100%;
   margin-left: 220px;
   max-width: 960px;
 }
 
-/* line 136, sass/style.scss */
+/* line 135, sass/style.scss */
 .header {
   width: 100%;
   margin: 30px 0;
 }
 
-/* line 142, sass/style.scss */
+/* line 141, sass/style.scss */
 .logo {
   background-image: url(images/monogram.svg);
   background-repeat: no-repeat;
@@ -184,7 +183,7 @@ a {
   float: left;
 }
 
-/* line 153, sass/style.scss */
+/* line 152, sass/style.scss */
 .header-info {
   width: 700px;
   height: 200px;
@@ -192,14 +191,14 @@ a {
   float: left;
 }
 
-/* line 161, sass/style.scss */
+/* line 160, sass/style.scss */
 .tagline {
   width: 100%;
   margin-top: 5px;
   margin-left: 10px;
   text-align: left;
 }
-/* line 167, sass/style.scss */
+/* line 166, sass/style.scss */
 .tagline h1 {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 35px;
@@ -208,7 +207,7 @@ a {
   letter-spacing: 15px;
   margin-bottom: 0;
 }
-/* line 176, sass/style.scss */
+/* line 175, sass/style.scss */
 .tagline span {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 75px;
@@ -217,7 +216,7 @@ a {
   letter-spacing: 0px;
 }
 
-/* line 185, sass/style.scss */
+/* line 184, sass/style.scss */
 .nav {
   width: 100%;
   border-bottom: 3px solid #0E333E;
@@ -225,25 +224,26 @@ a {
   bottom: 0px;
   left: -2px;
 }
-/* line 192, sass/style.scss */
+/* line 191, sass/style.scss */
 .nav ul {
   display: block;
   padding: 0;
   width: 100%;
 }
-/* line 197, sass/style.scss */
+/* line 196, sass/style.scss */
 .nav ul li {
   margin: 0;
   list-style: none;
   float: left;
 }
-/* line 202, sass/style.scss */
+/* line 201, sass/style.scss */
 .nav ul li a {
   display: block;
   padding: 7px 7px;
   text-decoration: none;
   font-family: Georgia, sans-serif;
   font-size: 20px;
+  text-align: center;
 }
 /* line 209, sass/style.scss */
 .nav ul li a:hover {
