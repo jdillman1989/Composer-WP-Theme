@@ -392,71 +392,85 @@ a {
 .footer-nav ul li a {
   display: block;
   padding: 15px 0;
+  text-decoration: none;
+  font-family: Georgia, sans-serif;
+  font-size: 16.5px;
+  text-align: center;
+}
+/* line 352, sass/style.scss */
+.footer-nav ul li a:hover {
+  background-color: #AEE4CD;
+  color: #0E333E;
 }
 
-/* line 352, sass/style.scss */
+/* line 361, sass/style.scss */
 .footnote {
   width: 100%;
   margin: 0 auto 15px auto;
   float: left;
 }
-/* line 357, sass/style.scss */
+/* line 366, sass/style.scss */
 .footnote p {
   font-size: 10px;
   text-align: center;
 }
 
 @media only screen and (min-width: 700px) and (max-width: 900px) {
-  /* line 365, sass/style.scss */
+  /* line 374, sass/style.scss */
   .wp-post-image {
     float: none;
   }
 
-  /* line 369, sass/style.scss */
+  /* line 378, sass/style.scss */
   .logo {
     width: 150px;
     height: 120px;
   }
 
-  /* line 374, sass/style.scss */
+  /* line 383, sass/style.scss */
   .header-info {
     height: 120px;
   }
 
-  /* line 378, sass/style.scss */
+  /* line 387, sass/style.scss */
   .tagline {
     margin-top: 3px;
     margin-left: 7px;
     text-align: left;
   }
-  /* line 383, sass/style.scss */
+  /* line 392, sass/style.scss */
   .tagline h1 {
     font-size: 23px;
     letter-spacing: 7px;
   }
-  /* line 388, sass/style.scss */
+  /* line 397, sass/style.scss */
   .tagline span {
     font-size: 43px;
     letter-spacing: 0px;
   }
 
-  /* line 393, sass/style.scss */
+  /* line 402, sass/style.scss */
   .nav {
     border-bottom: 2px solid #0E333E;
   }
-  /* line 400, sass/style.scss */
+  /* line 409, sass/style.scss */
   .nav ul li a {
+    font-size: 15px;
+  }
+
+  /* line 422, sass/style.scss */
+  .footer-nav ul li a {
     font-size: 15px;
   }
 }
 @media only screen and (max-width: 700px) {
-  /* line 410, sass/style.scss */
+  /* line 432, sass/style.scss */
   body {
     background-image: none;
     border-left: 10px solid #AEE4CD;
   }
 
-  /* line 415, sass/style.scss */
+  /* line 437, sass/style.scss */
   p {
     font-family: Georgia, sans-serif;
     font-size: 15px;
@@ -466,81 +480,86 @@ a {
     text-align: left;
   }
 
-  /* line 424, sass/style.scss */
+  /* line 446, sass/style.scss */
   .wp-post-image {
     float: none;
   }
 
-  /* line 428, sass/style.scss */
+  /* line 450, sass/style.scss */
   .alignleft {
     float: none;
     margin-right: 0;
     margin-bottom: 15px;
   }
 
-  /* line 434, sass/style.scss */
+  /* line 456, sass/style.scss */
   .aligncenter {
     margin: 0 auto 15 auto;
   }
 
-  /* line 438, sass/style.scss */
+  /* line 460, sass/style.scss */
   .alignright {
     float: none;
     margin-left: 0;
     margin-bottom: 15px;
   }
 
-  /* line 444, sass/style.scss */
+  /* line 466, sass/style.scss */
   .container {
     width: 90%;
     margin-left: auto;
     margin: 0 auto;
   }
 
-  /* line 450, sass/style.scss */
+  /* line 472, sass/style.scss */
   .logo {
     display: none;
   }
 
-  /* line 454, sass/style.scss */
+  /* line 476, sass/style.scss */
   .header-info {
     height: 120px;
     width: 100% !important;
     float: none;
   }
 
-  /* line 460, sass/style.scss */
+  /* line 482, sass/style.scss */
   .tagline {
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
   }
-  /* line 466, sass/style.scss */
+  /* line 488, sass/style.scss */
   .tagline h1 {
     font-size: 23px;
     letter-spacing: 7px;
     text-align: center;
   }
-  /* line 472, sass/style.scss */
+  /* line 494, sass/style.scss */
   .tagline span {
     font-size: 43px;
     letter-spacing: 0px;
     text-align: center;
   }
 
-  /* line 479, sass/style.scss */
+  /* line 501, sass/style.scss */
   .nav {
     border-bottom: 2px solid #0E333E;
   }
-  /* line 486, sass/style.scss */
+  /* line 508, sass/style.scss */
   .nav ul li a {
     font-size: 13px;
   }
 
-  /* line 493, sass/style.scss */
+  /* line 515, sass/style.scss */
   .content {
     width: 100% !important;
     padding-right: 0;
+  }
+
+  /* line 526, sass/style.scss */
+  .footer-nav ul li a {
+    font-size: 13px;
   }
 }

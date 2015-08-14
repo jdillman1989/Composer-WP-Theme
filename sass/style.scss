@@ -344,6 +344,15 @@ a{
 			a{
 				display: block;
 				padding: 15px 0;
+				text-decoration: none;
+				font-family: Georgia, sans-serif;
+				font-size: 16.5px;
+				text-align: center;
+				
+				&:hover{
+					background-color: $green;
+					color: $navy-blue;
+				} 
 			}
 		}
 	}
@@ -393,6 +402,19 @@ a{
 	.nav{
 		border-bottom: 2px solid $navy-blue; 
 		
+		ul{
+
+			li{
+
+				a{
+					font-size: 15px; 
+				}
+			}
+		}
+	}
+
+	.footer-nav{
+	
 		ul{
 
 			li{
@@ -493,6 +515,19 @@ a{
 	.content{
 		width: 100% !important;
 		padding-right: 0;
+	}
+
+	.footer-nav{
+	
+		ul{
+
+			li{
+
+				a{
+					font-size: 13px; 
+				}
+			}
+		}
 	}
 }
 
