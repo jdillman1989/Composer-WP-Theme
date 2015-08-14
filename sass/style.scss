@@ -112,17 +112,14 @@ a{
 .edd-submit{
 	background: $pink !important;
 	border: none !important; 
-	
-	a{
-		font-family: Arial, Helvetica, sans-serif !important;
-		font-size: 18px !important;
-		font-weight: bold !important;
-		text-transform: uppercase !important;
-		color: #fff !important;
-	}
+	font-family: Arial, Helvetica, sans-serif !important;
+	font-size: 18px !important;
+	font-weight: bold !important;
+	text-transform: uppercase !important;
+	color: #fff !important;
 }
 
-.wp-post-thumbnail{
+.wp-post-image{
 	float: left;
 	margin-right: 15px;
 	margin-bottom: 15px;  
