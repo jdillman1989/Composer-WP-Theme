@@ -48,11 +48,9 @@ function header_style() {
 	$nav_item_width = (100 / $nav_items_count) - .3;
 
 	return "<style type='text/css'>
-				@media (min-width: 676px) {
 
-					.nav ul li, .footer-nav ul li {
-						width: ".$nav_item_width."%;
-					}
+				.nav ul li, .footer-nav ul li {
+					width: ".$nav_item_width."%;
 				}
 			</style>";
 }
