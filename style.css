@@ -150,7 +150,7 @@ a {
   font-family: Arial, Helvetica, sans-serif !important;
   font-size: 18px !important;
   font-weight: bold !important;
-  text-transform: uppercase !important;
+  text-decoration: none !important;
   color: #fff !important;
 }
 
@@ -159,41 +159,42 @@ a {
   float: left;
   margin-right: 15px;
   margin-bottom: 15px;
+  border: 2px solid #AEE4CD;
 }
 
-/* line 128, sass/style.scss */
+/* line 129, sass/style.scss */
 .alignleft {
   float: left;
   margin-right: 25px;
   margin-bottom: 25px;
 }
 
-/* line 135, sass/style.scss */
+/* line 136, sass/style.scss */
 .aligncenter {
   margin: 0 auto;
 }
 
-/* line 140, sass/style.scss */
+/* line 141, sass/style.scss */
 .alignright {
   float: right;
   margin-left: 25px;
   margin-bottom: 25px;
 }
 
-/* line 147, sass/style.scss */
+/* line 148, sass/style.scss */
 .container {
   width: 100%;
   margin-left: 140px;
   max-width: 960px;
 }
 
-/* line 154, sass/style.scss */
+/* line 155, sass/style.scss */
 .header {
   width: 100%;
   margin: 30px 0;
 }
 
-/* line 160, sass/style.scss */
+/* line 161, sass/style.scss */
 .logo {
   background-image: url(images/monogram.svg);
   background-repeat: no-repeat;
@@ -204,7 +205,7 @@ a {
   float: left;
 }
 
-/* line 171, sass/style.scss */
+/* line 172, sass/style.scss */
 .header-info {
   width: 700px;
   height: 200px;
@@ -212,14 +213,14 @@ a {
   float: left;
 }
 
-/* line 179, sass/style.scss */
+/* line 180, sass/style.scss */
 .tagline {
   width: 100%;
   margin-top: 5px;
   margin-left: 10px;
   text-align: left;
 }
-/* line 185, sass/style.scss */
+/* line 186, sass/style.scss */
 .tagline h1 {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 35px;
@@ -228,7 +229,7 @@ a {
   letter-spacing: 15px;
   margin-bottom: 0;
 }
-/* line 194, sass/style.scss */
+/* line 195, sass/style.scss */
 .tagline span {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 75px;
@@ -237,7 +238,7 @@ a {
   letter-spacing: 0px;
 }
 
-/* line 203, sass/style.scss */
+/* line 204, sass/style.scss */
 .nav {
   width: 100%;
   border-bottom: 3px solid #0E333E;
@@ -245,20 +246,20 @@ a {
   bottom: 0px;
   left: -2px;
 }
-/* line 210, sass/style.scss */
+/* line 211, sass/style.scss */
 .nav ul {
   display: block;
   padding: 0;
   width: 100%;
 }
-/* line 215, sass/style.scss */
+/* line 216, sass/style.scss */
 .nav ul li {
   margin: 0;
   list-style: none;
   float: left;
   position: relative;
 }
-/* line 221, sass/style.scss */
+/* line 222, sass/style.scss */
 .nav ul li a {
   display: block;
   padding: 7px 0;
@@ -267,12 +268,12 @@ a {
   font-size: 16.5px;
   text-align: center;
 }
-/* line 229, sass/style.scss */
+/* line 230, sass/style.scss */
 .nav ul li a:hover {
   background-color: #AEE4CD;
   color: #0E333E;
 }
-/* line 235, sass/style.scss */
+/* line 236, sass/style.scss */
 .nav ul li ul {
   width: 100%;
   display: none;
@@ -281,51 +282,51 @@ a {
   top: 100%;
   background-color: #DEDECA;
 }
-/* line 243, sass/style.scss */
+/* line 244, sass/style.scss */
 .nav ul li ul li {
   float: none;
   width: 100%;
 }
-/* line 247, sass/style.scss */
+/* line 248, sass/style.scss */
 .nav ul li ul li a {
   padding: 10px 5px;
   color: #0E333E;
   font-family: Georgia, sans-serif;
 }
-/* line 252, sass/style.scss */
+/* line 253, sass/style.scss */
 .nav ul li ul li a:hover {
   background-color: #AEE4CD;
 }
-/* line 259, sass/style.scss */
+/* line 260, sass/style.scss */
 .nav ul li:hover > ul {
   display: block;
 }
 
-/* line 266, sass/style.scss */
+/* line 267, sass/style.scss */
 .content {
   width: 100%;
   margin-bottom: 30px;
   padding-right: 30px;
 }
 
-/* line 273, sass/style.scss */
+/* line 274, sass/style.scss */
 .breadcrumbs {
   width: 100%;
 }
-/* line 276, sass/style.scss */
+/* line 277, sass/style.scss */
 .breadcrumbs p {
   font-size: 12px;
   color: #DEDECA;
 }
 
-/* line 282, sass/style.scss */
+/* line 283, sass/style.scss */
 .product {
   width: 47%;
   margin-right: 2%;
   float: left;
 }
 
-/* line 289, sass/style.scss */
+/* line 290, sass/style.scss */
 .thumbnail {
   -moz-box-shadow: 3px 3px 5px 1px #ccc;
   -webkit-box-shadow: 3px 3px 5px 1px #ccc;
@@ -336,111 +337,111 @@ a {
   float: left;
 }
 
-/* line 299, sass/style.scss */
+/* line 300, sass/style.scss */
 .info {
   float: left;
 }
 
-/* line 303, sass/style.scss */
+/* line 304, sass/style.scss */
 .audio {
   float: left;
   width: 100%;
 }
 
-/* line 308, sass/style.scss */
+/* line 309, sass/style.scss */
 .footer {
   width: 100%;
   border-top: 2px solid #0E333E;
 }
 
-/* line 314, sass/style.scss */
+/* line 315, sass/style.scss */
 .footer-meta {
   width: 31%;
   float: left;
   margin-right: 2%;
 }
 
-/* line 320, sass/style.scss */
+/* line 321, sass/style.scss */
 .footer-nav {
   width: 66%;
   float: left;
 }
-/* line 324, sass/style.scss */
+/* line 325, sass/style.scss */
 .footer-nav ul {
   display: block;
   padding: 0;
   width: 100%;
 }
-/* line 329, sass/style.scss */
+/* line 330, sass/style.scss */
 .footer-nav ul li {
   margin: 0;
   list-style: none;
   float: left;
 }
-/* line 334, sass/style.scss */
+/* line 335, sass/style.scss */
 .footer-nav ul li a {
   display: block;
   padding: 15px 0;
 }
 
-/* line 342, sass/style.scss */
+/* line 343, sass/style.scss */
 .footnote {
   width: 100%;
   margin: 0 auto 15px auto;
   float: left;
 }
-/* line 347, sass/style.scss */
+/* line 348, sass/style.scss */
 .footnote p {
   font-size: 10px;
   text-align: center;
 }
 
 @media only screen and (min-width: 700px) and (max-width: 900px) {
-  /* line 355, sass/style.scss */
+  /* line 356, sass/style.scss */
   .logo {
     width: 150px;
     height: 120px;
   }
 
-  /* line 360, sass/style.scss */
+  /* line 361, sass/style.scss */
   .header-info {
     height: 120px;
   }
 
-  /* line 364, sass/style.scss */
+  /* line 365, sass/style.scss */
   .tagline {
     margin-top: 3px;
     margin-left: 7px;
     text-align: left;
   }
-  /* line 369, sass/style.scss */
+  /* line 370, sass/style.scss */
   .tagline h1 {
     font-size: 23px;
     letter-spacing: 7px;
   }
-  /* line 374, sass/style.scss */
+  /* line 375, sass/style.scss */
   .tagline span {
     font-size: 43px;
     letter-spacing: 0px;
   }
 
-  /* line 379, sass/style.scss */
+  /* line 380, sass/style.scss */
   .nav {
     border-bottom: 2px solid #0E333E;
   }
-  /* line 386, sass/style.scss */
+  /* line 387, sass/style.scss */
   .nav ul li a {
     font-size: 15px;
   }
 }
 @media only screen and (max-width: 700px) {
-  /* line 396, sass/style.scss */
+  /* line 397, sass/style.scss */
   body {
     background-image: none;
     border-left: 10px solid #AEE4CD;
   }
 
-  /* line 401, sass/style.scss */
+  /* line 402, sass/style.scss */
   p {
     font-family: Georgia, sans-serif;
     font-size: 15px;
@@ -450,74 +451,74 @@ a {
     text-align: left;
   }
 
-  /* line 410, sass/style.scss */
+  /* line 411, sass/style.scss */
   .alignleft {
     float: none;
     margin-right: 0;
     margin-bottom: 15px;
   }
 
-  /* line 416, sass/style.scss */
+  /* line 417, sass/style.scss */
   .aligncenter {
     margin: 0 auto 15 auto;
   }
 
-  /* line 420, sass/style.scss */
+  /* line 421, sass/style.scss */
   .alignright {
     float: none;
     margin-left: 0;
     margin-bottom: 15px;
   }
 
-  /* line 426, sass/style.scss */
+  /* line 427, sass/style.scss */
   .container {
     width: 90%;
     margin-left: auto;
     margin: 0 auto;
   }
 
-  /* line 432, sass/style.scss */
+  /* line 433, sass/style.scss */
   .logo {
     display: none;
   }
 
-  /* line 436, sass/style.scss */
+  /* line 437, sass/style.scss */
   .header-info {
     height: 120px;
     width: 100% !important;
     float: none;
   }
 
-  /* line 442, sass/style.scss */
+  /* line 443, sass/style.scss */
   .tagline {
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
   }
-  /* line 448, sass/style.scss */
+  /* line 449, sass/style.scss */
   .tagline h1 {
     font-size: 23px;
     letter-spacing: 7px;
     text-align: center;
   }
-  /* line 454, sass/style.scss */
+  /* line 455, sass/style.scss */
   .tagline span {
     font-size: 43px;
     letter-spacing: 0px;
     text-align: center;
   }
 
-  /* line 461, sass/style.scss */
+  /* line 462, sass/style.scss */
   .nav {
     border-bottom: 2px solid #0E333E;
   }
-  /* line 468, sass/style.scss */
+  /* line 469, sass/style.scss */
   .nav ul li a {
     font-size: 13px;
   }
 
-  /* line 475, sass/style.scss */
+  /* line 476, sass/style.scss */
   .content {
     width: 100% !important;
     padding-right: 0;
