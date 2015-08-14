@@ -570,7 +570,17 @@ a {
     padding-right: 0;
   }
 
-  /* line 537, sass/style.scss */
+  /* line 531, sass/style.scss */
+  .footer-meta {
+    display: none;
+  }
+
+  /* line 535, sass/style.scss */
+  .footer-nav {
+    width: 100%;
+    float: none;
+  }
+  /* line 543, sass/style.scss */
   .footer-nav ul li a {
     font-size: 13px;
   }

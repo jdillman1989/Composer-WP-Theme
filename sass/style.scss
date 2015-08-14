@@ -528,8 +528,14 @@ a{
 		padding-right: 0;
 	}
 
+	.footer-meta{
+		display: none;
+	}
+
 	.footer-nav{
-	
+		width: 100%;
+		float: none;
+		
 		ul{
 
 			li{
