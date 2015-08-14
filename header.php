@@ -31,7 +31,7 @@
 			<div class="header-info">
 				
 				<div class="tagline">
-					<h1>The Music of <br><span class="ball">Karen Ball</span></h1>
+					<h1>The Music of<br><span class="ball">Karen Ball</span></h1>
 				</div>
 
 				<div class="nav">
