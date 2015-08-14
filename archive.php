@@ -17,6 +17,7 @@
 <?php get_header(); ?>
 
 <h1><?php single_cat_title(); ?></h1>
+<br>
 
 <!--Start the Loop.-->
 
@@ -24,8 +25,10 @@
 
 	<div class="product">
 
+		<?php the_post_thumbnail(); ?> 
+
 		<h2><?php the_title(); ?></h2>
-		
+
 		<?php the_content(); ?>
 	</div>
 <?php endwhile; ?>
