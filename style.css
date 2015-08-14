@@ -374,7 +374,7 @@ a {
   text-align: center;
 }
 
-@media only screen and (min-width: 715px) and (max-width: 900px) {
+@media only screen and (min-width: 700px) and (max-width: 900px) {
   /* line 336, sass/style.scss */
   .logo {
     width: 150px;
@@ -412,7 +412,7 @@ a {
     font-size: 13px;
   }
 }
-@media only screen and (max-width: 715px) {
+@media only screen and (max-width: 700px) {
   /* line 377, sass/style.scss */
   body {
     background-image: none;
