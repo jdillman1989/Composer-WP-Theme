@@ -19,9 +19,12 @@
 <h1><?php single_cat_title(); ?></h1>
 <br>
 
-<!--Start the Loop.-->
 
-<?php while ( have_posts() ) : the_post(); ?>
+<?php
+$args = array( 'orderby'=> 'title', 'order' => 'ASC' );
+$productposts = get_posts( $args ); 
+// here comes The Loop!
+foreach( $productposts as $post ) :	setup_postdata($post);  ?>
 
 	<div class="product">
 
@@ -31,6 +34,6 @@
 
 		<?php the_content(); ?>
 	</div>
-<?php endwhile; ?>
+<?php endforeach; ?>
 
 <?php get_footer(); ?>
