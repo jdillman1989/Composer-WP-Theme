@@ -58,3 +58,10 @@ function header_style() {
 				}
 			</style>";
 }
+
+function no_audio( $atts ) {
+
+	return "<div class='noaudio'>No Audio Available</div>";
+}
+
+add_shortcode( 'noaudio', 'no_audio' );
