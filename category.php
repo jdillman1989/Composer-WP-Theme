@@ -20,7 +20,7 @@
 <br>
 
 <!--Start the Loop.-->
-
+<?php global $query_string; query_posts( $query_string . '&orderby=title&order=ASC' ); ?>
 <?php while ( have_posts() ) : the_post(); ?>
 
 	<div class="product">
